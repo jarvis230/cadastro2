@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cabecalho {
+  /* position: relative; */
+  /* block-size: 25px; */
+  /* z-index: 2; */
+  width: 100%;
+  background-color: rgb(63, 63, 203);
+  height: 40px;
+
+}
+.relatorio {
+  color: #fff;
+  background-color: rgb(63, 63, 203);
+  border: none;
+  color: #fff;
+  background-color: rgb(63, 63, 203);
+  border: none;
+  flex-direction: row;
+  align-content: center;
+}
+.botoes {
+  list-style: none;
+  color: #fff;
+  background-color: rgb(63, 63, 203);
+  list-style: none;
+  color: rgb(63, 63, 203);
+  background-color: rgb(63, 63, 203);
+}
+.container {
+  display: flex;
+  background-color: rgb(127, 123, 123);
+  width: 100%;
+  height: 100%;
+}
+  /* .opcoesd {
+  position: relative;
+  background-color: rgb(63, 63, 203);
+  color: #fff;
+  border: 0cm;
+} */
+/* .descricao {
+  color: rgb(63, 63, 203);
+  font-family: "Crimson Text", "Times new roman", serif;
+  font-size: 120%;
+  line-height: 1.5;
+} */
+
+/* .opcoes {
+  color: #fff;
+  background-color: rgb(63, 63, 203);
+  border: none;
+} */
+
+/* .cadastros {
+  color: #fff;
+  background-color: rgb(63, 63, 203);
+  border: none;
+  color: #fff;
+  background-color: rgb(63, 63, 203);
+  border: none;
+} */
+
+  /* divisão */
+legend,
+label[for="mensagem"] {
+  font-weight: bold;
+  margin-top: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+label[for],
+button {
+  display: block;
+  display: flex;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  padding: .25em .5em;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 100%;
+  padding: .25em .5em;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+
+}
+button {
+  border: 0;
+  padding: .5em 1em;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: rgb(63, 63, 203);
+  color: white;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-top: 1em;
+  border: 0;
+  padding: .5em 1em;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: rgb(63, 63, 203);
+  color: white;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-top: 1em;
+}
+input:invalid {
+  box-shadow: 0 0 3px red;
+  box-shadow: 0 0 3px red;
+}
+input:focus,
+textarea:focus {
+  background-color: #FFD;
+  background-color: #FFD;
+}
+button:focus {
+  background-color: rgb(63, 63, 203);
+  background-color: rgb(63, 63, 203);
+}
+fieldset > fieldset {
+  display: inline;
+  display: flex;
+}
+label[for="outro"] {
+  display: inline;
+  display: flex;
+}
+input[name="outro-assunto"] {
+  width: auto;
+  width: auto;
+}
+input[value="Outro"] ~ input {
+  display: none;
+  display: flex;
+}
+input[value="Outro"]:checked ~ input {
+  display: inline;
+}
+.com-icone {
+  position: relative;
+  margin-bottom: 0;
+}
+.com-icone::after {
+  content: '';
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  background-color: rgb(63, 63, 203);
+  background-size: 50% 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 100%;
+  display: flex;
+}
+main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  /* padding: 0.5rem; */
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+
+body {
+  background-color: rgb(216, 216, 216);
+  flex-direction: row;
+  display: flex;
+}
